@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://cloud.githubusercontent.com/assets/2933430/21000144/6e6cfa86-bcd6-11e6-950c-149059841f19.png" width="250" align="right">
 
 React.js Fundamentals Curriculum
@@ -104,3 +105,16 @@ The final /detail route should now look like this.
 If you got through this, great job. Take a look at my code and compare to what we did differently.
 
 <img src='https://cloud.githubusercontent.com/assets/2933430/21000153/6e9fa846-bcd6-11e6-9e09-2e6bb868f71c.png' width="200px" align="left"/> Suggestion or just want to say thanks? You can find me on Twitter at [@tylermcginnis33](http://twitter.com/tylermcginnis33)
+=======
+# weatherapp
+a weather app created following the react-training-cirriculum + es6.
+
+technologies used:  
+boilerplate - react, webpack, babel  
+react-router  
+superagent  
+
+note: i will be working on this over the course of the next few days. updates will be made at the end of every day until completed.
+
+to preview: clone repo, cd to dir, "npm start", navigate to localhost:8080
+>>>>>>> 3b6e9518dee6036dbf077e5b917b93e0ba9fb3bb
