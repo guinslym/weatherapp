@@ -15,8 +15,7 @@ class PullCityContainer extends React.Component {
   }
   handleSubmitCity () {
     console.log(this.state.city);
-    pullForecast(this.state.city);
-    pullWeather(this.state.city);
+    this.context.router.push('/forecast/' + this.state.city);
   }
   handleUpdateCity (e) {
     this.setState({
@@ -33,6 +32,10 @@ class PullCityContainer extends React.Component {
     );
   }
 }
+
+PullCityContainer.contextTypes = {
+  router: React.PropTypes.object.isRequired
+};
 
 PullCityContainer.propTypes = {
   direction: PropTypes.string

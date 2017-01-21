@@ -21,7 +21,7 @@ class Main extends React.Component {
     return (
       <div style={styles.container}>
         <div style={styles.header}>
-          <h1 style={{margin:'0'}}>woat</h1>
+          <h1 style={{margin:'0'}}>React Weather App</h1>
           <PullCityContainer direction="rtl"/>
         </div>
         {this.props.children}
